@@ -6,3 +6,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![QR Code](./screenshot/fm-qr-code-solution.jpg)
 
+
+### Links
+
+- Live Site URL: [Live Site](https://master-code234.github.io/frontend-mentor-qr-code/)
+
+
