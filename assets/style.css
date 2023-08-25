@@ -1,5 +1,5 @@
+/* Importing Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
-
 
 :root {
   --white: hsl(0, 0%, 100%);
@@ -13,6 +13,7 @@ body {
   background-color: var(--light-gray);
 }
 
+/* Card Styles */
 .card {
   display: flex;
   flex-direction: column;
@@ -23,19 +24,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 1rem;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   background-color: var(--white);
   width: 18rem;
   text-align: center;
 }
 
-.card img {
-  border-radius: 10px;
-  max-width: 100%;
-  display: block;
-}
-
-.card h1 {
+.card-title {
   font-weight: 700;
   font-size: 1.375rem;
   color: var(--dark-blue);
@@ -43,9 +38,15 @@ body {
   margin-bottom: 0.1rem;
 }
 
-.card p {
+.card-paragraph {
   font-size: 0.938rem;
   font-weight: 400;
   color: var(--grayish-blue);
   max-width: 85%;
+}
+
+.qr-code-img {
+  border-radius: 0.625rem;
+  max-width: 100%;
+  display: block;
 }
